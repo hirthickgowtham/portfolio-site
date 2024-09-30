@@ -27,7 +27,7 @@ export const reference = [
     {
         "icon":"",
         "title":"Leetcode",
-        "image":"/images/LeetCode.png",
+        "image":"/images/leetcode.png",
         "font":"1.6em",
         "link":"https://leetcode.com/u/Hirthick_Gowtham-G/"
     }

@@ -1,0 +1,151 @@
+.over_cover{
+    margin:.5em .8em 0em .8em ;
+    /* padding:1em 1em 0em 1em; */
+    background-color:#001233;
+    border-radius: 1em ;
+}
+
+
+a{
+    text-decoration: none;
+}
+.cover{
+    
+    
+    margin:1em 1em 0em 1em;
+    height:auto;
+   background-color:#001233;
+   color:#fff;
+}
+
+.name{
+    margin: .1em .4em;
+    font-size: 2.3em;
+}
+
+.passion{
+    margin: .2em .9em;
+    font-size: 1.5em;
+
+}
+
+.description{
+    margin: .4em 1.4em;
+    width: 70%;
+    font-size: 1.2em;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em;
+    margin: 1.5em 1.5em .7em 1.5em;
+}
+
+.reference{
+    /* border:1px solid black; */
+    padding:.5em .8em;
+    border-radius: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    background-color: #fff;
+    color: #001233;
+    transition: all .3s ease-in-out;
+    margin:0em .3em;
+}
+
+.reference  img{
+    margin:0em .3em;
+    width : 20px;
+    height:20px;
+}
+
+.line{
+    width: 100%;
+}
+
+
+.reference:hover{
+    box-shadow:-.3em .3em .7em #d3d2d2a2;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+@media (min-width:750px ) and (max-width:900px){
+
+    .name{
+        font-size: 2em;
+    }
+    .passion{
+        font-size: 1.2em;
+    }
+    .description{
+        font-size:1em ;
+    }
+    .reference{
+        font-size:.9em ;
+    }
+}
+
+@media (min-width:550px ) and (max-width:750px){
+
+    .name{
+        font-size: 1.5em;
+    }
+    .passion{
+        font-size: 1em;
+    }
+    .description{
+        font-size:.8em ;
+    }
+    .reference{
+        font-size:.8em ;
+    }
+}
+
+
+@media (min-width:400px ) and (max-width:550px){
+
+    .name{
+        font-size: 1.2em;
+    }
+    .passion{
+        font-size: .8em;
+    }
+    .description{
+        font-size:.6em ;
+        width:90%;
+    }
+    .reference{
+        font-size:.6em ;
+    }
+    .reference img{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media  (max-width:400px){
+
+    .name{
+        font-size: .8em;
+    }
+    .passion{
+        font-size: .6em;
+    }
+    .description{
+        font-size:.5em ;
+        width:90%;
+    }
+    .reference{
+        font-size:.4em ;
+    }
+    .reference img{
+        height: 15px;
+        width: 15px;
+    }
+}

@@ -1,0 +1,60 @@
+.line{
+    
+    height: 1px;
+    background-color: #fff;
+    margin:  0em .5em;
+}
+
+.main_title{
+    padding: 0em 1em;
+   
+}
+
+.main_title h2{
+    font-size: 2.5em;
+}
+
+.project_continer{
+    border:1px solid black;
+    padding: 1em;
+    margin:  1em;
+    border-radius: 1em;
+}
+
+.name_holder:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* media query */
+@media (min-width:750px) and (max-width:900px){
+
+    .main_title h2{
+    font-size: 2em;
+}
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+    .main_title h2{
+        font-size: 1.7em;
+    }
+
+}
+
+
+@media (min-width:400px) and (max-width:550px){
+    .main_title h2{
+        font-size: 1.4em;
+    }
+}
+
+
+
+@media  (max-width:400px){
+    .main_title h2{
+        font-size: 1.2em;
+    }
+}

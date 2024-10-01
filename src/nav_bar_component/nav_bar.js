@@ -29,7 +29,7 @@ export default function Nav_Bar(){
         {(width > 900)?
              <motion.div 
              variants={{
-                start:{x:-200},
+                start:{x:-100},
                 end:{x:[0,35,0]}
              }}
              initial = "start"

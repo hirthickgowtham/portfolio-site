@@ -45,6 +45,31 @@
 
 
     /* media query */
+    @media (min-width:1700px){
+
+        .title{
+            font-size: 2em;
+        }
+        .description{
+            font-size: 1.7em;
+        }
+
+        .my_picture{
+            margin:1.5em 1.2em;
+        }
+
+        .picture_continer{
+            height:20em;
+            width: 95%;
+        }
+
+        .About_me_cover{
+            grid-template-columns: 70% 25%;
+        }
+    }
+
+
+
     @media (min-width:750px) and (max-width:900px){
     .title{
         font-size: 1.4em;

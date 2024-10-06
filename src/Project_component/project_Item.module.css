@@ -90,6 +90,28 @@
 
 
 /* media query */
+@media (min-width:1700px){
+  .project_showcase{
+    height:32em;
+  }
+  .project_title h2{
+    font-size:2.5em ;
+  }
+  .project_title h3{
+    font-size:2em ;
+  }
+  .stack_showcase{
+    font-size: 1.3em;
+  }
+  .description{
+    font-size: 1.2em;
+  }
+  .visiting_link{
+    font-size: 1.3em;
+  }
+
+}
+
 @media (min-width:750px) and (max-width:900px){
 
     .project_showcase{

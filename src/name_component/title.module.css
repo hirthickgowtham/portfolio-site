@@ -73,7 +73,25 @@ a{
     cursor: pointer;
 }
 
+@media (min-width:1700px ){
 
+    
+    .name{
+        font-size: 3em;
+    }
+    .passion{
+        font-size: 2em;
+    }
+    .description{
+        font-size:1.7em ;
+    }
+    .reference{
+        font-size:1.3em ;
+    }
+
+
+
+}
 
 @media (min-width:750px ) and (max-width:900px){
 

@@ -88,6 +88,29 @@ font-size:1.5em;
     cursor: pointer;
 }
 
+
+@media (min-width:1700px){
+
+    .button{
+        font-size: 1.5em;
+    }
+    .icon img{
+        height:3em;
+        width:3em;
+    }
+    .icon{
+        margin: 0em 1em;
+    }
+    .mail{
+        font-size:1.5em ;
+    }
+    .copy{
+        font-size: 1.5em;
+    }
+}
+
+
+
 @media (min-width:750px) and (max-width:900px){
     .button{
         padding:.8em 1em;

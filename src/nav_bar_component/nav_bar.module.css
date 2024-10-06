@@ -108,6 +108,20 @@ li{
 
 
 /* media query */
+@media (min-width:1700px ) {
+
+    .short_cut{
+        font-size: 1.5em;
+    }
+
+    .logo{
+        height: 3em;
+        width: 3em;
+    }
+}
+
+
+
 @media (min-width:850px ) and (max-width:900px){
 
 .menu{

@@ -48,7 +48,7 @@ export default function About_me(){
                 <div className={styles.picture_continer}
                 style={{backgroundImage:`url(/portfolio-site/images/profil.jpg)`,backgroundSize:"cover"}}
                 >
-
+                   
                 </div>
 
             </motion.div>

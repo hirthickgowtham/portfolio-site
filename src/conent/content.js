@@ -65,6 +65,16 @@ export const project = [
         }],
         "live":".Live"
     },
+    {
+        "title":"Weather Info",
+        "Stack":["Html 5","Css 3","Javascript","React js","Node js","Express js","Restfull Api","Postgresql"],
+        "description":`This is weather info website with "Basic Authentication" and "Registration".This site is used to get weather infomation for prefered location.`,
+        "image":'/images/weather_info.png',
+        "links":[{
+            "name":"GitHub Code",
+            "link":"https://github.com/hirthickgowtham/Weather-information-site"
+        }]
+    }
     
 ]
 
@@ -99,7 +109,7 @@ export const tech = [[{
     "icon":"https://expressjs.com/images/favicon.png"
 },
 {
-    "name":"REST",
+    "name":"RESTFULL",
     "icon":"/portfolio-site/images/api.png"
 },
 {

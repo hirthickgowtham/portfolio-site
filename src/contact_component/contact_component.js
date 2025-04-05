@@ -37,7 +37,7 @@ export default function Contact(){
                            ease:"easeInOut"
                         }}
                         className={styles.resume_button}>
-                          <a href="https://drive.google.com/file/d/1kTnnsqdm7pD0hjRkbe8aFkhNy5Cin94s/view?usp=sharing" target="_blank">  <li className={styles.button}  ref={resume_arrow}>Resume <i class={arrowChange?up_arrow:down_arrow} ></i></li></a>
+                          <a href="https://drive.google.com/file/d/1guQI4CcAm9J6ACPAEnbArxvAfYp96lCx/view?usp=sharing" target="_blank">  <li className={styles.button}  ref={resume_arrow}>Resume <i class={arrowChange?up_arrow:down_arrow} ></i></li></a>
                         </motion.div>
                         <motion.div
                         initial = {{opacity:0,x:-200}}
@@ -73,7 +73,7 @@ export default function Contact(){
                        delay:.1,
                        ease:"easeInOut"
                     }}
-                     className={styles.copy}>© 2024 | Hirthick Gowtham G</motion.p>
+                     className={styles.copy}>© {new Date().getFullYear()} | Hirthick Gowtham G</motion.p>
                 </div>
         </div>
 

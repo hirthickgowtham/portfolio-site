@@ -38,6 +38,20 @@ export const reference = [
 
 export const project = [
     {
+        "title":"Department Site",
+        "Stack":["Html 5","Css 3","Javascript","React js","Node js","Express js","Rest Api","Mongo db"],
+        "description":"I contributed to building a dynamic and responsive website for the Computer Science & Engineering (ICB) department at MVIT. The platform showcases key departmental information including faculty profiles, student achievements, publications, events, academic calendar, timetable, and resources. The site features role-based authentication for admins and students, enabling secure access to personalized content.",
+        "image":'/images/image.png',
+        "links":[{
+            "name":"GitHub Code",
+            "link":"https://github.com/jothimani2004/departrment-project"
+        },{
+            "name":"Visit Site",
+            "link":"https://mvitcseicb.in"
+        }],
+        "live":".Live"
+    },
+    {
         "title":"Zenotion",
         "Stack":["Html 5","Css 3","Javascript","Ejs","Node js","Express js","Rest Api","Postgresql"],
         "description":"This website facilitates the sharing of educational resources between teachers and students. It includes personal spaces for students to store and manage their resources. Through this project, I gained valuable experience in both front-end and back-end development.",
@@ -45,11 +59,19 @@ export const project = [
         "links":[{
             "name":"GitHub Code",
             "link":"https://github.com/hirthickgowtham/zenotion/tree/main"
-        },{
-            "name":"Visit Site",
-            "link":"https://www.zenotion.college/"
         }],
-        "live":".Live"
+       
+    },
+   
+    {
+        "title":"Weather Info",
+        "Stack":["Html 5","Css 3","Javascript","React js","Node js","Express js","Restfull Api","Postgresql"],
+        "description":`This is weather info website with "Basic Authentication" and "Registration".This site is used to get weather infomation for prefered location.`,
+        "image":'/images/weather_info.png',
+        "links":[{
+            "name":"GitHub Code",
+            "link":"https://github.com/hirthickgowtham/Weather-information-site"
+        }]
     },
     {
         "title":"Spotify Clone",
@@ -65,16 +87,6 @@ export const project = [
         }],
         "live":".Live"
     },
-    {
-        "title":"Weather Info",
-        "Stack":["Html 5","Css 3","Javascript","React js","Node js","Express js","Restfull Api","Postgresql"],
-        "description":`This is weather info website with "Basic Authentication" and "Registration".This site is used to get weather infomation for prefered location.`,
-        "image":'/images/weather_info.png',
-        "links":[{
-            "name":"GitHub Code",
-            "link":"https://github.com/hirthickgowtham/Weather-information-site"
-        }]
-    }
     
 ]
 
@@ -96,10 +108,10 @@ export const tech = [[{
     "name":"React js",
     "icon":"https://react.dev/favicon.ico"
 },
-{
-    "name":"Redux js",
-    "icon":"https://redux-toolkit.js.org/img/favicon/favicon.ico"
-},
+// {
+//     "name":"Redux js",
+//     "icon":"https://redux-toolkit.js.org/img/favicon/favicon.ico"
+// },
 {
     "name":"Node js",
     "icon":"https://nodejs.org/static/images/favicons/favicon.png"
@@ -125,13 +137,13 @@ export const tech = [[{
     "icon":"https://www.python.org/favicon.ico"
 },
 {
-    "name":"Framer",
+    "name":"Framer Motion",
     "icon":"https://framerusercontent.com/images/3ydDYhTbVKKzF5xDzZpZKoMmc.png"
 },
-{
-    "name":"Redis",
-    "icon":"/portfolio-site/images/redis.png"
-}
+// {
+//     "name":"Redis",
+//     "icon":"/portfolio-site/images/redis.png"
+// }
 ],
 [{
     "name":"VS code",

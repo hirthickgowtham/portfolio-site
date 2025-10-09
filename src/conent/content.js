@@ -30,13 +30,27 @@ export const reference = [
         "image":"/images/leetcode.png",
         "font":"1.6em",
         "link":"https://leetcode.com/u/Hirthick_Gowtham-G/"
-    }
+    },
 ]
 
 
 
 
 export const project = [
+    {
+        "title":"SmilingStars (DayCare)",
+        "Stack":["Html 5","Css 3","Javascript","React js","Node js","Express js","Rest Api","Postgresql"],
+        "description":"Developed the frontend using React.js with a responsive UI for student admissions and program selection (DayCare, Bharatanatyam, Carnatic Music, Violin, Arts, Tabla & Mridangam, Hindi).",
+        "image":'/images/smilingstars.png',
+        "links":[{
+            "name":"GitHub Code",
+            "link":"https://github.com/hirthickgowtham/Public-Front-end-smiling-star"
+        },{
+            "name":"Visit Site",
+            "link":"https://smilingstarsdaycare.in/"
+        }],
+        "live":".Live"
+    },
     {
         "title":"Department Site",
         "Stack":["Html 5","Css 3","Javascript","React js","Node js","Express js","Rest Api","Mongo db"],
@@ -53,7 +67,7 @@ export const project = [
     },
     {
         "title":"Zenotion",
-        "Stack":["Html 5","Css 3","Javascript","Ejs","Node js","Express js","Rest Api","Postgresql"],
+        "Stack":["Html 5","Css 3","Javascript","Ejs","Node js","Express js","Rest Api","Postgresql",],
         "description":"This website facilitates the sharing of educational resources between teachers and students. It includes personal spaces for students to store and manage their resources. Through this project, I gained valuable experience in both front-end and back-end development.",
         "image":'/images/zenotion.png',
         "links":[{
@@ -73,20 +87,7 @@ export const project = [
             "link":"https://github.com/hirthickgowtham/Weather-information-site"
         }]
     },
-    {
-        "title":"Spotify Clone",
-        "Stack":["Html 5","Css 3","Javascript"],
-        "description":"This is a single-page Spotify-inspired clone website built using HTML, CSS, Java Script. The project closely replicates the look and feel of Spotify's interface, offering a hands-on experience with front-end development concepts. I gained valuable experience from this project.",
-        "image":'/images/spotify.png',
-        "links":[{
-            "name":"GitHub Code",
-            "link":"https://github.com/hirthickgowtham/spotify"
-        },{
-            "name":"Visit Site",
-            "link":"https://hirthickgowtham.github.io/spotify/sop.html"
-        }],
-        "live":".Live"
-    },
+    
     
 ]
 
